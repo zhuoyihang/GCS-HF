@@ -1,0 +1,1635 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>「赶潮水」商业合作提案 | 四川丰火传媒</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700;900&family=Noto+Sans+SC:wght@300;400;500;700&display=swap');
+
+  :root {
+    --gold: #C9A96E;
+    --gold-light: #E8D5B0;
+    --black: #1A1A1A;
+    --dark: #2D2D2D;
+    --bg: #FAFAF7;
+    --card-bg: #FFFFFF;
+    --text: #333333;
+    --text-light: #666666;
+    --text-muted: #999999;
+    --border: #E8E4DD;
+    --accent: #C9A96E;
+    --badge-bg: #F5EFE3;
+    --tag-bg: #F0EBE0;
+    --highlight: #FFF8EC;
+    --danger: #C0392B;
+    --success: #2E7D32;
+    --info: #1565C0;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Noto Sans SC', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: #E8E4DD;
+    color: var(--text);
+    line-height: 1.8;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: var(--bg);
+    min-height: 100vh;
+  }
+
+  /* ===== 封面 ===== */
+  .cover {
+    background: linear-gradient(160deg, #1A1A1A 0%, #2D2D2D 40%, #1A1A1A 100%);
+    color: #FFFFFF;
+    padding: 80px 48px 60px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .cover::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background:
+      radial-gradient(ellipse at 30% 20%, rgba(201,169,110,0.08) 0%, transparent 50%),
+      radial-gradient(ellipse at 70% 80%, rgba(201,169,110,0.06) 0%, transparent 50%);
+    pointer-events: none;
+  }
+  .cover-top-tag {
+    display: inline-block;
+    border: 1px solid var(--gold);
+    color: var(--gold);
+    font-size: 13px;
+    letter-spacing: 6px;
+    padding: 6px 24px;
+    margin-bottom: 36px;
+    font-family: 'Noto Serif SC', serif;
+    position: relative;
+  }
+  .cover h1 {
+    font-family: 'Noto Serif SC', serif;
+    font-size: 42px;
+    font-weight: 900;
+    letter-spacing: 4px;
+    margin-bottom: 12px;
+    position: relative;
+  }
+  .cover h1 span {
+    color: var(--gold);
+  }
+  .cover .subtitle {
+    font-size: 18px;
+    color: rgba(255,255,255,0.7);
+    letter-spacing: 8px;
+    margin-bottom: 48px;
+    position: relative;
+  }
+  .cover-divider {
+    width: 60px;
+    height: 2px;
+    background: var(--gold);
+    margin: 0 auto 48px;
+    position: relative;
+  }
+  .cover-meta {
+    font-size: 14px;
+    color: rgba(255,255,255,0.45);
+    line-height: 2.2;
+    position: relative;
+  }
+  .cover-meta strong {
+    color: rgba(255,255,255,0.65);
+    font-weight: 400;
+  }
+
+  /* ===== 内容区 ===== */
+  .content {
+    padding: 48px 48px 80px;
+  }
+
+  /* ===== 标题体系 ===== */
+  .section {
+    margin-bottom: 48px;
+    counter-increment: section;
+  }
+  .section-number {
+    font-family: 'Noto Serif SC', serif;
+    font-size: 13px;
+    color: var(--gold);
+    letter-spacing: 4px;
+    margin-bottom: 8px;
+  }
+  .section-title {
+    font-family: 'Noto Serif SC', serif;
+    font-size: 26px;
+    font-weight: 700;
+    color: var(--black);
+    margin-bottom: 8px;
+    letter-spacing: 2px;
+  }
+  .section-subtitle {
+    font-size: 14px;
+    color: var(--text-muted);
+    margin-bottom: 32px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  h3 {
+    font-family: 'Noto Serif SC', serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--dark);
+    margin: 28px 0 16px;
+    position: relative;
+    padding-left: 16px;
+  }
+  h3::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 4px;
+    bottom: 4px;
+    width: 3px;
+    background: var(--gold);
+    border-radius: 2px;
+  }
+
+  h4 {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--dark);
+    margin: 20px 0 12px;
+  }
+
+  p {
+    margin-bottom: 14px;
+    font-size: 15px;
+    color: var(--text);
+  }
+
+  /* ===== 卡片 ===== */
+  .card {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 28px 28px;
+    margin: 20px 0;
+  }
+  .card-title {
+    font-family: 'Noto Serif SC', serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--dark);
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .card-title .icon {
+    width: 8px;
+    height: 8px;
+    background: var(--gold);
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+
+  /* ===== 表格 ===== */
+  .table-wrapper {
+    margin: 20px 0;
+    overflow-x: auto;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+    table-layout: auto;
+  }
+  table thead th {
+    background: var(--dark);
+    color: #FFFFFF;
+    padding: 12px 14px;
+    text-align: left;
+    font-weight: 500;
+    font-size: 13px;
+    letter-spacing: 1px;
+    white-space: nowrap;
+  }
+  table tbody td {
+    padding: 12px 14px;
+    border-bottom: 1px solid var(--border);
+    vertical-align: top;
+    word-break: keep-all;
+    overflow-wrap: break-word;
+  }
+  table tbody tr:nth-child(even) {
+    background: var(--highlight);
+  }
+  table tbody tr:hover {
+    background: var(--badge-bg);
+  }
+  .td-highlight {
+    font-weight: 600;
+    color: var(--dark);
+  }
+  .td-tag {
+    display: inline-block;
+    background: var(--tag-bg);
+    color: var(--gold);
+    font-size: 12px;
+    padding: 2px 10px;
+    border-radius: 3px;
+    letter-spacing: 1px;
+  }
+
+  /* ===== Badge ===== */
+  .badge {
+    display: inline-block;
+    background: var(--badge-bg);
+    color: var(--gold);
+    font-size: 12px;
+    padding: 2px 10px;
+    border-radius: 3px;
+    letter-spacing: 1px;
+  }
+  .badge-red { background: #FDEDEC; color: var(--danger); }
+  .badge-green { background: #E8F5E9; color: var(--success); }
+  .badge-blue { background: #E3F2FD; color: var(--info); }
+
+  /* ===== 引用 ===== */
+  .quote {
+    background: var(--highlight);
+    border-left: 3px solid var(--gold);
+    padding: 18px 24px;
+    margin: 20px 0;
+    font-family: 'Noto Serif SC', serif;
+    font-size: 15px;
+    color: var(--dark);
+    line-height: 1.9;
+    border-radius: 0 6px 6px 0;
+  }
+
+  /* ===== 列表 ===== */
+  .info-list {
+    list-style: none;
+    margin: 12px 0;
+  }
+  .info-list li {
+    padding: 6px 0 6px 24px;
+    position: relative;
+    font-size: 14px;
+    color: var(--text);
+    line-height: 1.75;
+  }
+  .info-list li::before {
+    content: '';
+    position: absolute;
+    left: 4px;
+    top: 14px;
+    width: 5px;
+    height: 5px;
+    background: var(--gold);
+    border-radius: 50%;
+  }
+
+  .check-list {
+    list-style: none;
+    margin: 12px 0;
+  }
+  .check-list li {
+    padding: 5px 0 5px 28px;
+    position: relative;
+    font-size: 14px;
+    color: var(--text);
+    line-height: 1.75;
+  }
+  .check-list li::before {
+    content: '✓';
+    position: absolute;
+    left: 4px;
+    top: 5px;
+    color: var(--gold);
+    font-weight: 700;
+  }
+
+  /* ===== 甘特图 ===== */
+  .gantt {
+    margin: 24px 0;
+    font-size: 13px;
+  }
+  .gantt-header {
+    display: flex;
+    background: var(--dark);
+    color: #FFFFFF;
+    border-radius: 6px 6px 0 0;
+    overflow: hidden;
+  }
+  .gantt-col-label {
+    width: 130px;
+    padding: 10px 14px;
+    font-weight: 500;
+    flex-shrink: 0;
+  }
+  .gantt-col-months {
+    flex: 1;
+    display: flex;
+  }
+  .gantt-col-months span {
+    flex: 1;
+    text-align: center;
+    padding: 10px 4px;
+    font-size: 12px;
+  }
+  .gantt-row {
+    display: flex;
+    border-bottom: 1px solid var(--border);
+    align-items: stretch;
+  }
+  .gantt-row-label {
+    width: 130px;
+    padding: 12px 14px;
+    font-weight: 500;
+    font-size: 13px;
+    flex-shrink: 0;
+    background: var(--card-bg);
+    display: flex;
+    align-items: center;
+  }
+  .gantt-row-bar {
+    flex: 1;
+    padding: 6px 0;
+    position: relative;
+    height: 44px;
+    background: var(--card-bg);
+  }
+  .gantt-bar {
+    position: absolute;
+    top: 10px;
+    height: 24px;
+    border-radius: 12px;
+    font-size: 11px;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    letter-spacing: 1px;
+  }
+  .gantt-bar.gold { background: var(--gold); }
+  .gantt-bar.dark { background: var(--dark); }
+  .gantt-bar.accent { background: #B08D57; }
+
+  /* ===== 服务卡片 ===== */
+  .service-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin: 20px 0;
+  }
+  .service-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 22px;
+    transition: all 0.2s;
+  }
+  .service-card:hover {
+    border-color: var(--gold);
+    box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  }
+  .service-card .sc-name {
+    font-family: 'Noto Serif SC', serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--dark);
+    margin-bottom: 4px;
+  }
+  .service-card .sc-meta {
+    font-size: 13px;
+    color: var(--text-muted);
+    margin-bottom: 10px;
+  }
+  .service-card .sc-desc {
+    font-size: 13px;
+    color: var(--text-light);
+    line-height: 1.7;
+    margin-bottom: 12px;
+  }
+  .service-card .sc-price {
+    font-family: 'Noto Serif SC', serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--gold);
+  }
+
+  /* ===== 方案卡片 ===== */
+  .plan-cards {
+    display: flex;
+    gap: 16px;
+    margin: 20px 0;
+    flex-wrap: wrap;
+  }
+  .plan-card {
+    flex: 1;
+    min-width: 200px;
+    background: var(--card-bg);
+    border: 2px solid var(--border);
+    border-radius: 10px;
+    padding: 28px 24px;
+    text-align: center;
+    transition: all 0.2s;
+  }
+  .plan-card.recommended {
+    border-color: var(--gold);
+    background: linear-gradient(180deg, #FFFDF7 0%, #FFFFFF 100%);
+    position: relative;
+  }
+  .plan-card.recommended::before {
+    content: '推荐';
+    position: absolute;
+    top: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--gold);
+    color: #FFF;
+    font-size: 12px;
+    padding: 2px 16px;
+    border-radius: 12px;
+    letter-spacing: 2px;
+  }
+  .plan-card .plan-name {
+    font-family: 'Noto Serif SC', serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--dark);
+    margin-bottom: 8px;
+  }
+  .plan-card .plan-price {
+    font-family: 'Noto Serif SC', serif;
+    font-size: 32px;
+    font-weight: 900;
+    color: var(--gold);
+    margin-bottom: 16px;
+  }
+  .plan-card .plan-price small {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--text-muted);
+  }
+  .plan-card .plan-features {
+    list-style: none;
+    text-align: left;
+    font-size: 13px;
+    color: var(--text-light);
+    line-height: 2.2;
+  }
+  .plan-card .plan-features li::before {
+    content: '· ';
+    color: var(--gold);
+    font-weight: 700;
+  }
+
+  /* ===== 风险 ===== */
+  .risk-table th:first-child { width: 25%; }
+  .risk-table th:nth-child(2) { width: 12%; }
+  .risk-table th:nth-child(3) { width: 63%; }
+
+  /* ===== 付款节奏 ===== */
+  .payment-bar {
+    display: flex;
+    margin: 20px 0;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .payment-bar .pb-seg {
+    padding: 16px 12px;
+    text-align: center;
+    color: #FFF;
+    font-size: 13px;
+    font-weight: 500;
+  }
+  .pb-seg.pb-1 { background: var(--dark); flex: 3; }
+  .pb-seg.pb-2 { background: var(--gold); flex: 3; }
+  .pb-seg.pb-3 { background: #B08D57; flex: 4; }
+  .pb-seg .pb-pct { font-size: 20px; font-weight: 700; display: block; }
+
+  /* ===== 尾页 ===== */
+  .end-page {
+    background: var(--dark);
+    color: #FFFFFF;
+    text-align: center;
+    padding: 64px 48px;
+  }
+  .end-page h2 {
+    font-family: 'Noto Serif SC', serif;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    margin-bottom: 16px;
+  }
+  .end-page h2 span { color: var(--gold); }
+  .end-page p {
+    color: rgba(255,255,255,0.5);
+    font-size: 14px;
+  }
+  .end-divider {
+    width: 40px;
+    height: 2px;
+    background: var(--gold);
+    margin: 24px auto;
+  }
+
+  /* ===== 强调文本 ===== */
+  strong { color: var(--dark); }
+  .gold-text { color: var(--gold); font-weight: 600; }
+
+  /* ===== 页眉页脚装饰 ===== */
+  .section-divider {
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--border), transparent);
+    margin: 40px 0;
+  }
+
+  /* ===== 二级卡片/小结 ===== */
+  .summary-box {
+    border: 2px solid var(--gold);
+    border-radius: 8px;
+    padding: 20px 24px;
+    margin: 24px 0;
+    background: var(--highlight);
+  }
+  .summary-box h4 {
+    color: var(--gold);
+    margin-bottom: 8px;
+  }
+
+  /* ===== 响应式 ===== */
+  @media (max-width: 640px) {
+    .content { padding: 32px 24px 60px; }
+    .cover { padding: 56px 28px 44px; }
+    .cover h1 { font-size: 32px; }
+    .service-grid { grid-template-columns: 1fr; }
+    .plan-cards { flex-direction: column; }
+  }
+
+  /* ===== 打印样式 ===== */
+  @media print {
+    body { background: #FFF; }
+    .container { max-width: 100%; }
+    .cover { break-after: page; }
+    .section { break-inside: avoid; }
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<!-- ==================== 封面 ==================== -->
+<header class="cover">
+  <div class="cover-top-tag">商业合作提案</div>
+  <h1><span>赶潮水</span></h1>
+  <div class="subtitle">市井高级海鲜馆</div>
+  <div class="cover-divider"></div>
+  <div class="cover-meta">
+    呈报：成都山城外餐饮管理有限公司<br>
+    提案：四川丰火传媒<br>
+    日期：2026年6月<br>
+    <strong>机密文件 · 仅限内部传阅</strong>
+  </div>
+</header>
+
+<!-- ==================== 正文 ==================== -->
+<main class="content">
+
+<!-- 一、项目背景 -->
+<section class="section">
+  <div class="section-number">PART 01</div>
+  <h2 class="section-title">项目背景与理解</h2>
+  <div class="section-subtitle">基于 2026年5月28日 首次洽谈会议纪要的深度解读</div>
+
+  <h3>甲方现状</h3>
+  <div class="card">
+    <div class="card-title"><span class="icon"></span>山城外餐饮管理有限公司</div>
+    <ul class="info-list">
+      <li>前身"士达屋餐饮"，始创于<b>2011年</b>，深耕购物中心渠道<b>15年</b></li>
+      <li>旗下拥有"山城外老坛酸菜鱼""映巷简骨藕汤"等品牌，全国近<b>百家门店</b></li>
+      <li>面临川菜同质化竞争加剧、中餐社区化消费分流的双重压力</li>
+      <li>当前核心诉求：孵化一个<b>脱离川菜内卷、品类有差异化壁垒</b>的新品牌</li>
+    </ul>
+  </div>
+
+  <h3>为什么是海鲜？</h3>
+  <div class="quote">
+    四川人没有海，但对海的向往刻在骨子里。每年冬天川A大军涌入三亚、北海、西双版纳——不是为了景点，是为了海风和海鲜。赶潮水做的，就是把退潮后在海滩捡贝壳、挖蛏子、抓螃蟹的那种喜悦，搬进成都的商场里。
+  </div>
+  <ul class="info-list">
+    <li><b>心理锚定价值</b>：内陆城市消费者对海鲜天然有好感，愿意为"新鲜海味"支付溢价</li>
+    <li><b>供给端空白</b>：成都在购物中心渠道内尚无头部海鲜排档品牌（甬江烟火、胡叨叨等仅在外地）</li>
+    <li><b>消费趋势佐证</b>：泰式海鲜火锅品类虽经历泡沫，但底层需求持续存在，夏季冷藏型海鲜菜品仍呈上升趋势</li>
+  </ul>
+
+  <h3>竞品启示：甬江烟火 & 肥仔峰</h3>
+  <div class="table-wrapper">
+    <table>
+      <thead>
+        <tr>
+          <th>维度</th>
+          <th>甬江烟火</th>
+          <th>肥仔峰大排档</th>
+          <th><span class="gold-text">赶潮水</span>的切入点</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="td-highlight">品类定位</td>
+          <td>宁波砂锅焗海鲜</td>
+          <td>粤式海鲜大排档</td>
+          <td>市井高级海鲜馆（差异化于两者）</td>
+        </tr>
+        <tr>
+          <td class="td-highlight">品牌基因</td>
+          <td>加盟扩张型，配方固定</td>
+          <td>跨界老板，重装修轻VI</td>
+          <td>15年餐饮班底，直营深耕</td>
+        </tr>
+        <tr>
+          <td class="td-highlight">核心弱点</td>
+          <td>盟主体系限制本地化</td>
+          <td>个人IP难复制</td>
+          <td>需在两者之间找到平衡</td>
+        </tr>
+        <tr>
+          <td class="td-highlight">可借鉴</td>
+          <td>产品结构（爆品/流量/利润分层）</td>
+          <td>反差感（高投入+低客单）</td>
+          <td>借鉴产品分层 + 保留市井高级定位</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- 二、品牌定位 -->
+<section class="section">
+  <div class="section-number">PART 02</div>
+  <h2 class="section-title">品牌定位方案</h2>
+  <div class="section-subtitle">从"赶潮水排档小海鲜"到「赶潮水」的品牌重塑</div>
+
+  <h3>品牌命名：为什么砍掉"排档"和"小海鲜"</h3>
+  <div class="card">
+    <p>原名称"赶潮水排档小海鲜"存在两个认知陷阱：</p>
+    <p>❶ <b>"排档" = 低端定价的潜台词</b>——消费者听到排档，自动将心理价格锚定在 60-80 元，永远无法为你的人均 85-100 元买单。</p>
+    <p>❷ <b>"小海鲜" = 品类窄化</b>——品类后缀限定了品牌想象空间，也将自己锁死在与甬江烟火、朋来访的直接对标中。</p>
+  </div>
+  <div class="summary-box">
+    <h4>最终方案：单名「赶潮水」，不跟品类后缀</h4>
+    <p style="margin-bottom:0;">让"赶潮水"三个字自己说话。它可以是餐厅、可以是一种生活方式、可以是一种成都人下班后的状态。品类由空间、产品、服务来定义，不由名字来框定。</p>
+  </div>
+
+  <h3>一句话定位</h3>
+  <div class="quote" style="font-size:18px; text-align:center;">
+    <b>市井高级海鲜馆</b>——穿着拖鞋也能进的精致海鲜。
+  </div>
+
+  <h3>品牌故事（可直接对外传播）</h3>
+  <div class="quote">
+    <p>成都没有海，但成都人有"赶海"的心。</p>
+    <p>每年冬天，川A大军穿越贵州涌入三亚、北海、西双版纳，不是为了景点，是为了海风和海鲜。</p>
+    <p>赶潮水做的，就是把海边退潮后人们在沙滩上捡贝壳、挖蛏子、抓螃蟹的那种喜悦，搬进成都的商场里。</p>
+    <p>不卖"大龙虾""帝王蟹"的高端焦虑——只卖"你今晚下班来赶一潮"的市井松弛。</p>
+  </div>
+
+  <h3>品牌调性关键词</h3>
+  <div class="table-wrapper">
+    <table>
+      <thead><tr><th>维度</th><th>表达</th></tr></thead>
+      <tbody>
+        <tr><td class="td-highlight">视觉体系</td><td>黑金底色 + 潮汐蓝点缀、手写黑板菜单、渔网元素克制使用（拒绝廉价海洋风）</td></tr>
+        <tr><td class="td-highlight">文案风格</td><td>成都方言混搭海洋气息："今天潮水好，蛏子肥得很"</td></tr>
+        <tr><td class="td-highlight">空间氛围</td><td>暖黄灯光、深色木质、明档海鲜池、开放式焗炉——"看得见的鲜"</td></tr>
+        <tr><td class="td-highlight">音乐选曲</td><td>工作日：轻爵士/沙发音乐；周末：City Pop 海洋风</td></tr>
+        <tr><td class="td-highlight">客群画像</td><td>25-45岁城市中产，年轻情侣约会 + 家庭小聚 + 同事下班小酌</td></tr>
+        <tr><td class="td-highlight">跨代际策略</td><td>年轻人要"出片"，长辈要"实在"——潮涌拼盘满足前者，海鲜粥+外婆菜炒饭满足后者</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- 三、产品架构 -->
+<section class="section">
+  <div class="section-number">PART 03</div>
+  <h2 class="section-title">产品架构设计</h2>
+  <div class="section-subtitle">14-16 SKU精简矩阵，聚焦"爆品浓度 × 复购厚度 × 毛利安全垫"</div>
+
+  <div class="table-wrapper">
+    <table>
+      <thead>
+        <tr>
+          <th>层级</th>
+          <th>SKU数</th>
+          <th>产品示例</th>
+          <th>单价</th>
+          <th>毛利率</th>
+          <th>核心功能</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="td-tag">镇店爆品</span></td>
+          <td>3款</td>
+          <td>①黄油焗梭子蟹 ②膏蟹十八斩 ③潮涌海鲜大拼盘</td>
+          <td>128-168元</td>
+          <td>35-40%</td>
+          <td>制造记忆点、拉高桌均、推动菜品在社交平台自然传播</td>
+        </tr>
+        <tr>
+          <td><span class="td-tag">流量菜品</span></td>
+          <td>3款</td>
+          <td>①泡椒焗蛏子 ②藤椒鲍鱼 ③熟醉螺蛳虾</td>
+          <td>48-68元</td>
+          <td>55-60%</td>
+          <td>高频复购主力，川味海鲜差异化表达</td>
+        </tr>
+        <tr>
+          <td><span class="td-tag">利润主食</span></td>
+          <td>4款</td>
+          <td>①砂锅海鲜粥 ②外婆菜海鲜炒饭 ③海鲜炒米粉 ④葱油拌面+海鲜浇头</td>
+          <td>28-48元</td>
+          <td>65-70%</td>
+          <td>毛利率安全垫 + "吃饱"刚需 + 长辈友好</td>
+        </tr>
+        <tr>
+          <td><span class="td-tag">搭配菜品</span></td>
+          <td>4-6款</td>
+          <td>凉拌海草、烤生蚝、椒盐虾头、蒜蓉时蔬等</td>
+          <td>18-38元</td>
+          <td>50-60%</td>
+          <td>丰富餐桌选择、填补场景空白</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3>关键设计原则</h3>
+  <ul class="check-list">
+    <li><b>不设纯甜品引流品</b>——车厘子草莓雪等"好看不好吃"的内容品不符合"市井高级"定位，同时长辈客群对此类产品接受度低；引流功能转移至"潮涌海鲜大拼盘"等同时具备内容力与实吃价值的产品</li>
+    <li><b>利润主食层是毛利率安全垫</b>——海鲜品类食材成本普遍偏高（35-40%），必须靠主食层的高毛利（65-70%）拉平综合毛利率至 55-58%</li>
+    <li><b>爆品每月轮换一道</b>——配合"潮汐日历"叙事，维持新鲜感和复购动机</li>
+  </ul>
+
+  <h3>定价策略</h3>
+  <div class="card">
+    <ul class="info-list">
+      <li><b>人均锚定</b>：80-100元（使用代金券后实际支付约 60-85 元，取决于券种选择与叠加张数）</li>
+      <li><b>点单结构设计（双人）</b>：1道爆品 + 2道流量菜 + 1道主食 ≈ 188-238元 → 使用 200 赶潮双人券（129元购）后人均实付 64-77元</li>
+      <li><b>点单结构设计（四人）</b>：2道爆品 + 3道流量菜 + 2道主食 ≈ 400-500元 → 使用 300 赶潮大桌券（209元购）后人均实付 52-63元</li>
+      <li><b>午餐场景</b>：1道流量菜 + 1道主食 ≈ 76-116元 → 使用 100 赶潮单人券（59.9元购）后实付 59.9-75.9元</li>
+    </ul>
+  </div>
+
+  <h3>代金券体系（不打套餐，只做券）</h3>
+  <p>将券面值按"用途 × 渠道"做精准分工——<b>小面额拉新客、大面额锁大桌</b>：</p>
+
+  <div class="table-wrapper">
+    <table>
+      <thead>
+        <tr><th>券种</th><th>面值</th><th>售价</th><th>主推渠道</th><th>适用场景</th><th>设计目的</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="td-highlight">赶潮单人券</td>
+          <td>100元</td>
+          <td><b>59.9元</b></td>
+          <td><span class="td-tag">达人带货</span></td>
+          <td>1-2人轻量消费、新客尝鲜</td>
+          <td>低门槛拉新，利用达人短视频/图文带货触达泛人群，解决首单转化</td>
+        </tr>
+        <tr>
+          <td class="td-highlight">赶潮双人券</td>
+          <td>200元</td>
+          <td><b>129元</b></td>
+          <td><span class="td-tag">达人直播</span> + <span class="td-tag">官方直播</span></td>
+          <td>2-3人小聚、情侣约会</td>
+          <td>锁定双人聚餐场景，200面值引导点单至爆品区，直播场景冲动消费转化率高</td>
+        </tr>
+        <tr>
+          <td class="td-highlight">赶潮大桌券</td>
+          <td>300元</td>
+          <td><b>209元</b></td>
+          <td><span class="td-tag">官方直播</span> 主力款</td>
+          <td>4-6人家庭聚餐、朋友聚会</td>
+          <td>锁定多人聚餐高客单场景，官方直播间作为核心利润品持续放量</td>
+        </tr>
+        <tr>
+          <td class="td-highlight">潮信盲盒券</td>
+          <td>随机50-150元</td>
+          <td><b>19.9元</b></td>
+          <td>大众点评 POI</td>
+          <td>泛人群，制造话题</td>
+          <td>每人限购1张/月，制造稀缺感与分享冲动，驱动社交传播</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="summary-box">
+    <h4>面值分层的底层逻辑</h4>
+    <p style="margin-bottom:8px;">面值分层策略的核心——<b>100 面值用于达人带货拉新（宽人群触达），200/300 面值用于直播锁大桌（高客单利润）</b>——已在多个餐饮品牌中得到市场验证。赶潮水采用这一逻辑：</p>
+    <ul class="info-list">
+      <li><b>100 面值 = 拉新引擎</b>：达人通过短视频/图文种草，59.9 元买 100 元券（可叠加 3 张），以深度折扣驱动新客首单转化，引流泛海鲜兴趣人群进店</li>
+      <li><b>200 面值 = 利润中台</b>：达人直播 + 官方直播双渠道放量，129 元锁定 200 元消费，精准匹配双人小聚场景</li>
+      <li><b>300 面值 = 大桌利润舱</b>：官方直播主推，209 元锁定 300 元消费，专攻 4-6 人家庭及朋友聚餐，客单价与翻台率双高</li>
+      <li><b>100 面值限定达人渠道</b>：59.9 抵 100 作为拉新专属折扣，仅在达人带货/直播渠道限量投放，官方渠道与非达人场景不开放，确保日常利润不受深度折扣侵蚀——<b>券面值决定消费场景，场景决定利润结构</b></li>
+      <li><b>叠加使用规则</b>：100 面值券单次可叠加使用、上限 3 张（适配 2 人轻量消费灵活组合）；200 和 300 面值券单次可叠加使用、上限 2 张（适配多人聚餐大额消费场景）</li>
+    </ul>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- 四、首店选址 -->
+<section class="section">
+  <div class="section-number">PART 04</div>
+  <h2 class="section-title">首店选址策略</h2>
+  <div class="section-subtitle">B+ 级核心商圈优先，兼顾客群匹配与成本可控</div>
+
+  <h3>主推方案：金牛凯德</h3>
+  <div class="table-wrapper">
+    <table>
+      <thead><tr><th>评估维度</th><th>判断</th></tr></thead>
+      <tbody>
+        <tr><td class="td-highlight">商圈等级</td><td>B+ 级，客流量稳定、非顶流压力、成本可控</td></tr>
+        <tr><td class="td-highlight">客群匹配</td><td>金牛区以家庭型与中产白领为主力客群，与"市井高级感"的目标人群画像高度重叠</td></tr>
+        <tr><td class="td-highlight">团队经验</td><td>四川丰火传媒曾操盘四海小馆在金牛凯德从 CKA 升至 KA 级别，拥有该商圈实战数据与物业合作基础</td></tr>
+        <tr><td class="td-highlight">竞争环境</td><td>金牛凯德目前无同品类海鲜竞品，首店先发优势显著</td></tr>
+        <tr><td class="td-highlight">商务条件</td><td>预计租金 120-180 元/㎡/月，按 300 ㎡测算月租约 3.6-5.4 万元，在可控范围内</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3>备选方案：龙湖系商场</h3>
+  <ul class="info-list">
+    <li>若金牛凯德商务条件无法达成，转向龙湖天街或西宸天街</li>
+    <li>甲方提及在龙湖系统"有资源可协助"，渠道优势可转化为谈判筹码</li>
+    <li>龙湖客群偏年轻家庭，与产品定价匹配度高</li>
+  </ul>
+
+  <h3>明确排除</h3>
+  <p>
+    <span class="badge badge-red">排除</span> IFS / 太古里：S 级商圈流量巨大，但营销投入与运营压力远超首店可承受范围。<br>
+    <span class="badge badge-red">排除</span> 天府新区 / 和悦广场：客群匹配度不足，流量质量存疑。<br>
+    <span class="badge badge-red">排除</span> 社区底商：与品牌调性升级方向不符，不利于品牌势能建立。
+  </p>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- 五、围挡营销 -->
+<section class="section">
+  <div class="section-number">PART 05</div>
+  <h2 class="section-title">围挡营销与开业事件</h2>
+  <div class="section-subtitle">围挡期即品牌资产积累期，不是等待期</div>
+
+  <h3>围挡设计：潮汐日历互动装置</h3>
+  <p>围挡不仅是施工遮羞布，而是<b>品牌第一印象的制造装置</b>：</p>
+  <ul class="info-list">
+    <li><b>主视觉</b>：大幅手绘"潮汐日历"，标注<b>"第一波潮水预计 X 月 X 日抵达"</b>，制造悬念与期待</li>
+    <li><b>互动区</b>：扫码预约<b>"第一波潮水尝鲜名额"</b>（限量 500 人），开此前完成种子用户沉淀</li>
+    <li><b>悬念区</b>：每周更新一个"潮信"——即将登场的一道海鲜的产地溯源短片（扫码即看），持续输出内容</li>
+    <li><b>倒计时</b>：每周更新倒数数字，配合社交媒体同步更新，维持热度</li>
+  </ul>
+
+  <h3>线上预热节奏（开业前 90 天启动）</h3>
+  <div class="table-wrapper">
+    <table>
+      <thead>
+        <tr><th>时间节点</th><th>平台</th><th>动作</th><th>KPI 目标</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="td-highlight">T-90天</td>
+          <td>抖音 + 小红书</td>
+          <td>创建"赶潮水"账号，发布"成都人没见过的海鲜"系列内容（不露出品牌，纯科普种草）</td>
+          <td>1,000 粉</td>
+        </tr>
+        <tr>
+          <td class="td-highlight">T-60天</td>
+          <td>同上</td>
+          <td>品牌露出，发布"成都将有一家不一样的赶潮海鲜馆"系列预告</td>
+          <td>3,000 粉+</td>
+        </tr>
+        <tr>
+          <td class="td-highlight">T-45天</td>
+          <td>大众点评</td>
+          <td>创建门店 POI，上架"潮信盲盒券"（19.9元）限量发售</td>
+          <td>500 份售罄</td>
+        </tr>
+        <tr>
+          <td class="td-highlight">T-30天</td>
+          <td>全平台</td>
+          <td>达人双线预热：美食线 5-8位本地美食 KOL + 穿搭线 3-5位颜值穿搭博主，同步启动话题 #穿什么去赶潮#</td>
+          <td>曝光 80万+</td>
+        </tr>
+        <tr>
+          <td class="td-highlight">T-7天</td>
+          <td>私域 + 点评</td>
+          <td>分批释放"第一波潮水"预约名额，制造稀缺感</td>
+          <td>开业当天排队效果</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3>开业事件：成都首届「赶潮节」</h3>
+
+  <div class="card">
+    <div class="card-title"><span class="icon"></span>「赶潮节」三重理念</div>
+    <p>用事件营销替代打折开业，建立"赶潮水 = 事件品牌"的认知。「赶潮节」名称本身蕴含三重含义，层层递进：</p>
+    <p>🌊 <b>第一重·海潮</b>：与海鲜开市时令吻合。每年 5-6 月东海休渔期结束、南海渔获旺季，是"赶海"的最佳窗口。选择此时开业，品牌故事与自然节律共振——"休渔期刚过，第一波潮水到了"。</p>
+    <p>🕶️ <b>第二重·潮流</b>："潮"即年轻人的潮流态度。赶潮水不止是吃海鲜的地方，也是成都时尚青年的打卡地标。打破传统海鲜餐厅"长辈聚餐"的刻板印象，让年轻人把"今晚去赶潮"变成一种社交标签。</p>
+    <p>🔥 <b>第三重·人潮</b>：开业当天汇聚三重人潮——美食爱好者奔着第一波尝鲜来，潮流玩家奔着打卡出片来，商场自然客流被围挡装置吸引而来。三重人潮叠加，制造"这家店开业就排队"的社交货币。</p>
+  </div>
+
+  <h4>活动设计</h4>
+  <ul class="info-list">
+    <li>开业首周设"潮汐主题周"，每天一款<b>"潮信限定"</b>（仅当天供应，售完即止），制造每日到店理由</li>
+    <li>消费满 200 元赠送定制<b>"潮汐日历"冰箱贴</b>（共 12 款，鼓励持续到店收集完整系列）</li>
+    <li>大众点评首评赠送<b>"下浪潮汐券"</b>（下次可用），驱动点评量快速积累</li>
+    <li>定向邀请 3-5 位本地头部美食 KOL 担任<b>"赶潮人"</b>，开业当天直播探店</li>
+  </ul>
+
+  <h4>颜值穿搭博主矩阵（差异化亮点）</h4>
+  <div class="card">
+    <p>传统餐饮开业只请美食博主。赶潮节<b>同时启动颜值穿搭博主线</b>，将"赶潮水"从美食话题升级为生活方式话题：</p>
+    <ul class="info-list">
+      <li><b>博主类型</b>：成都本地颜值穿搭博主、生活方式博主、City Walk 博主（粉丝量 5-30万，以小红书为主阵地）</li>
+      <li><b>内容脚本</b>："成都新开的赶潮海鲜馆，OOTD 打卡超出片" / "穿这样去海鲜大排档，朋友以为我去了海边"——将餐厅转化为穿搭场景</li>
+      <li><b>话题联动</b>：发起 #穿什么去赶潮# 话题挑战，鼓励到店消费者自发产出穿搭内容，形成 UGC 飞轮</li>
+      <li><b>投放节奏</b>：开业前一周 3-5 位穿搭博主发布预热内容，开业当天 2 位头部穿搭博主现场打卡，开业后一周持续释放打卡返图</li>
+      <li><b>预期效果</b>：穿搭内容在小红书的自然传播效率远高于纯美食内容（穿搭博主的粉丝互动率比美食博主高 30-50%），同时沉淀的视觉素材可直接用于品牌官方账号的长期运营</li>
+    </ul>
+  </div>
+
+  <div class="summary-box">
+    <h4>为什么请穿搭博主？</h4>
+    <p style="margin-bottom:0;">"赶潮水"的空间设计具有强视觉辨识度（黑金配色 × 开放式焗炉 × 潮汐蓝点缀），天生适合出片。将餐厅包装为"穿搭场景"而非"美食场景"，可以击穿小红书上最大的内容消费人群（时尚穿搭），同时绕开传统海鲜赛道的同质化竞争——美食博主拍菜单，穿搭博主拍空间和氛围。两条腿走路，触达两个完全不同的人群池。</p>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- 六、三大平台矩阵 -->
+<section class="section">
+  <div class="section-number">PART 06</div>
+  <h2 class="section-title">三大平台矩阵策略</h2>
+  <div class="section-subtitle">抖音 × 大众点评 × 小红书 — 新美大体系协同作战</div>
+
+  <!-- ===== 抖音 ===== -->
+  <h3>一、抖音货盘与直播矩阵</h3>
+
+  <h4>1.1 货盘面值 × 渠道矩阵</h4>
+  <div class="table-wrapper">
+    <table>
+      <thead>
+        <tr><th>阶段</th><th>货盘</th><th>渠道</th><th>上架节奏</th><th>核心目标</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="td-highlight">开业爆发期<br>（开业前7天—开业后30天）</td>
+          <td><b>100 面值</b><br>（59.9元购）</td>
+          <td><span class="td-tag">达人带货</span></td>
+          <td>开业前 7 天上架，首批 500 张</td>
+          <td>最大化拉新，用低门槛券撬动首单转化</td>
+        </tr>
+        <tr>
+          <td class="td-highlight">稳定增量期<br>（开业后第2—3月）</td>
+          <td><b>200 面值</b><br>（129元购）</td>
+          <td><span class="td-tag">达人直播</span> + <span class="td-tag">官方店播</span></td>
+          <td>每周各 2 场直播挂载</td>
+          <td>双轨并行：达播借达人流量扩圈，店播做日常转化沉淀</td>
+        </tr>
+        <tr>
+          <td class="td-highlight">利润拉升期<br>（开业后第3月起）</td>
+          <td><b>300 面值</b><br>（209元购）</td>
+          <td><span class="td-tag">官方店播</span> 主力款</td>
+          <td>每周 3 场官方直播主推</td>
+          <td>锁定大桌聚餐场景，拉升客单价与整体利润结构</td>
+        </tr>
+        <tr>
+          <td class="td-highlight">日常续航期<br>（长期在架）</td>
+          <td><b>100 + 200 + 300</b><br>全矩阵</td>
+          <td>达人带货 + 达播 + 店播</td>
+          <td>三券持续在架，按周调整各面值库存配比</td>
+          <td>新客 × 复购 × 大桌利润三轨并行</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h4>1.2 抖音直播节奏甘特图（开业前—开业后6个月）</h4>
+  <div class="gantt">
+    <div class="gantt-header">
+      <div class="gantt-col-label">直播类型</div>
+      <div class="gantt-col-months">
+        <span>开业前</span><span>第1月</span><span>第2月</span><span>第3月</span><span>第4月</span><span>第5月</span><span>第6月</span>
+      </div>
+    </div>
+    <div class="gantt-row">
+      <div class="gantt-row-label">达人短视频带货</div>
+      <div class="gantt-row-bar">
+        <div class="gantt-bar gold" style="left:0%;width:14%;">预热</div>
+        <div class="gantt-bar dark" style="left:14%;width:86%;">持续投放 100面值</div>
+      </div>
+    </div>
+    <div class="gantt-row">
+      <div class="gantt-row-label">达人直播专场</div>
+      <div class="gantt-row-bar">
+        <div class="gantt-bar gold" style="left:14%;width:12%;">2场/周</div>
+        <div class="gantt-bar accent" style="left:26%;width:74%;">2场/周 200面值</div>
+      </div>
+    </div>
+    <div class="gantt-row">
+      <div class="gantt-row-label">官方店播</div>
+      <div class="gantt-row-bar">
+        <div class="gantt-bar accent" style="left:26%;width:14%;">3场/周 200</div>
+        <div class="gantt-bar gold" style="left:40%;width:60%;">3场/周 200+300面值</div>
+      </div>
+    </div>
+    <div class="gantt-row">
+      <div class="gantt-row-label">货盘上架节奏</div>
+      <div class="gantt-row-bar">
+        <div class="gantt-bar dark" style="left:0%;width:20%;">100面值</div>
+        <div class="gantt-bar accent" style="left:20%;width:20%;">+200面值</div>
+        <div class="gantt-bar gold" style="left:40%;width:60%;">+300面值全矩阵</div>
+      </div>
+    </div>
+  </div>
+
+  <h4>1.3 抖音运营关键指标</h4>
+  <div class="table-wrapper">
+    <table>
+      <thead><tr><th>阶段</th><th>达人数量</th><th>直播场次</th><th>预估曝光</th><th>核销率目标</th></tr></thead>
+      <tbody>
+        <tr>
+          <td class="td-highlight">开业爆发期</td>
+          <td>15-20位达人</td>
+          <td>达播 4 场</td>
+          <td>100万+</td>
+          <td>35-40%</td>
+        </tr>
+        <tr>
+          <td class="td-highlight">稳定增量期</td>
+          <td>每月新增 5-8位</td>
+          <td>达播 8场/月 + 店播 12场/月</td>
+          <td>200万+/月</td>
+          <td>25-30%</td>
+        </tr>
+        <tr>
+          <td class="td-highlight">利润拉升期</td>
+          <td>每月新增 3-5位</td>
+          <td>店播 12场/月（主力）</td>
+          <td>150万+/月</td>
+          <td>20-25%</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- ===== 大众点评 ===== -->
+  <h3>二、大众点评基础运营（基础优先原则）</h3>
+
+  <div class="summary-box">
+    <h4>核心原则：先做基础，再做推广</h4>
+    <p style="margin-bottom:0;">大众点评运营必须遵循"基础优先"铁律——星级、团购、招牌菜、新鲜事、基础评价五项基础完善后，才启动付费推广。否则流量来了接不住，等于花钱买差评。</p>
+  </div>
+
+  <h4>2.1 基础建设节奏安排</h4>
+  <div class="table-wrapper">
+    <table>
+      <thead>
+        <tr><th>优先级</th><th>基础项</th><th>启动时间</th><th>完成标准</th><th>前置条件</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="td-highlight">P0</td>
+          <td>门店POI创建</td>
+          <td>围挡启动日</td>
+          <td>POI信息完整（地址/电话/营业时间/人均/标签）</td>
+          <td>门店地址确认</td>
+        </tr>
+        <tr>
+          <td class="td-highlight">P0</td>
+          <td>团购套餐上架</td>
+          <td>开业前 14 天</td>
+          <td>核心代金券 + 1-2款引流单品团购上线</td>
+          <td>SKU与定价确认</td>
+        </tr>
+        <tr>
+          <td class="td-highlight">P1</td>
+          <td>招牌菜设置</td>
+          <td>开业前 7 天</td>
+          <td>6-8 道招牌菜带高清图片 + 推荐理由</td>
+          <td>菜单终版确认</td>
+        </tr>
+        <tr>
+          <td class="td-highlight">P1</td>
+          <td>新鲜事/店铺动态</td>
+          <td>开业前 3 天</td>
+          <td>开业预告 + 品牌故事 + 3条以上图文动态</td>
+          <td>VI素材就绪</td>
+        </tr>
+        <tr>
+          <td class="td-highlight">P2</td>
+          <td>基础评价积累</td>
+          <td>开业当日起</td>
+          <td>首批 15-20 条真实评价（含 3-5 条优质长评）</td>
+          <td>开业营业</td>
+        </tr>
+        <tr>
+          <td class="td-highlight">P3</td>
+          <td>星级达标</td>
+          <td>开业后 30 天</td>
+          <td>星级稳定达到 4.2 以上</td>
+          <td>基础评价 ≥ 20 条</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h4>2.2 免费菜活动节奏（LV等级阶梯）</h4>
+  <div class="card">
+    <p>免费菜作为固定福利，不挂钩评价（严格遵守"评价三不原则"），纯粹以会员权益的方式提升顾客体验与自然好评率：</p>
+    <div class="table-wrapper">
+      <table>
+        <thead><tr><th>LV等级</th><th>赠送内容</th><th>上架时间</th><th>预估核销率</th><th>备注</th></tr></thead>
+        <tbody>
+          <tr><td class="td-highlight">V1-V5</td><td>饮品 1 杯（潮汐特调/冰柠气泡水）</td><td>开业即上</td><td>20%-30%</td><td>低门槛广覆盖，引导注册会员</td></tr>
+          <tr><td class="td-highlight">V6-V8</td><td>果盘 1 份（季节潮水果盘）</td><td>星级 ≥ 4.0 后上架</td><td>20%-30%</td><td>高等级专属福利，激励升级</td></tr>
+      </tbody>
+    </table>
+    </div>
+    <ul class="info-list">
+      <li><b>不可叠加</b>：V6-V8 用户到店仅可领取果盘，不与 V1-V5 饮品福利叠加</li>
+      <li><b>上架条件</b>：V1-V5 饮品开业即上；V6-V8 果盘需等待基础评价 ≥ 20 条且星级 ≥ 4.0 后上架</li>
+      <li><b>评价三不原则</b>：不挂钩免费菜与评价、不要求顾客写什么/拍什么、不催促追问——自然体验驱动自然好评</li>
+    </ul>
+  </div>
+
+  <h4>2.3 推广启动条件与节奏</h4>
+  <div class="card">
+    <div class="card-title"><span class="icon"></span>付费推广启动的"五盏绿灯"</div>
+    <p>以下五项全部点亮后，方可启动大众点评推广通投放：</p>
+    <p>🟢 星级稳定在 4.2 以上</p>
+    <p>🟢 团购套餐正常在架（含代金券 + 单品团购）</p>
+    <p>🟢 招牌菜设置完毕（≥ 6 道，带高清图）</p>
+    <p>🟢 新鲜事/店铺动态活跃（近 7 天有更新）</p>
+    <p>🟢 基础评价 ≥ 30 条（含 ≥ 5 条 100 字以上优质长评）</p>
+    <p style="margin-top:12px;">预计推广启动时间：<b>开业后 30-45 天</b>。在此之前，主要流量依靠抖音达人矩阵与小红书种草驱动。</p>
+  </div>
+
+  <h4>2.4 点评运营节奏甘特图</h4>
+  <div class="gantt">
+    <div class="gantt-header">
+      <div class="gantt-col-label">运营动作</div>
+      <div class="gantt-col-months">
+        <span>开业前</span><span>第1月</span><span>第2月</span><span>第3月</span><span>第4月</span><span>第5月</span><span>第6月</span>
+      </div>
+    </div>
+    <div class="gantt-row">
+      <div class="gantt-row-label">POI + 团购上线</div>
+      <div class="gantt-row-bar">
+        <div class="gantt-bar gold" style="left:0%;width:14%;">建POI</div>
+      </div>
+    </div>
+    <div class="gantt-row">
+      <div class="gantt-row-label">招牌菜 + 新鲜事</div>
+      <div class="gantt-row-bar">
+        <div class="gantt-bar dark" style="left:10%;width:10%;">设置</div>
+      </div>
+    </div>
+    <div class="gantt-row">
+      <div class="gantt-row-label">免费菜 V1-V5</div>
+      <div class="gantt-row-bar">
+        <div class="gantt-bar accent" style="left:14%;width:86%;">V1-V5 饮品持续在架</div>
+      </div>
+    </div>
+    <div class="gantt-row">
+      <div class="gantt-row-label">基础评价积累</div>
+      <div class="gantt-row-bar">
+        <div class="gantt-bar gold" style="left:14%;width:30%;">冲 30条+</div>
+      </div>
+    </div>
+    <div class="gantt-row">
+      <div class="gantt-row-label">免费菜 V6-V8</div>
+      <div class="gantt-row-bar">
+        <div class="gantt-bar dark" style="left:44%;width:56%;">V6-V8 果盘福利</div>
+      </div>
+    </div>
+    <div class="gantt-row">
+      <div class="gantt-row-label">推广通投放</div>
+      <div class="gantt-row-bar">
+        <div class="gantt-bar accent" style="left:40%;width:60%;">五盏绿灯 → 启动推广</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== 小红书 ===== -->
+  <h3>三、小红书内容矩阵</h3>
+
+  <h4>3.1 双线博主策略</h4>
+  <div class="table-wrapper">
+    <table>
+      <thead>
+        <tr><th>博主线</th><th>博主类型</th><th>粉丝量级</th><th>数量</th><th>内容方向</th><th>发布节奏</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="td-highlight">美食线</td>
+          <td>本地美食探店博主</td>
+          <td>5-30万</td>
+          <td>5-8位</td>
+          <td>海鲜菜品实拍、菜单亮点、必点推荐</td>
+          <td>开业前 2 周集中释放</td>
+        </tr>
+        <tr>
+          <td class="td-highlight">穿搭线</td>
+          <td>颜值穿搭 / City Walk 博主</td>
+          <td>5-30万</td>
+          <td>3-5位</td>
+          <td>空间打卡 OOTD、氛围感出片指南</td>
+          <td>开业前 1 周 + 开业当天</td>
+        </tr>
+        <tr>
+          <td class="td-highlight">UGC&nbsp;线</td>
+          <td>素人体验官 + 到店顾客</td>
+          <td>不限</td>
+          <td>持续招募</td>
+          <td>真实到店体验分享、打卡返图</td>
+          <td>开业后持续运营</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h4>3.2 话题矩阵</h4>
+  <div class="card">
+    <ul class="info-list">
+      <li><b>主力话题</b>：#穿什么去赶潮# —— 穿搭博主 + 美食博主双线参与，将餐厅转化为穿搭打卡场景</li>
+      <li><b>辅助话题</b>：#成都赶海日记# —— UGC 向，鼓励到店顾客自发产出内容</li>
+      <li><b>事件话题</b>：#赶潮节# —— 开业事件专属话题，配合赶潮节集中引爆</li>
+      <li><b>长效话题</b>：#成都海鲜地图# —— 泛品类话题，长期 SEO 价值</li>
+    </ul>
+  </div>
+
+  <h4>3.3 小红书运营指标</h4>
+  <div class="table-wrapper">
+    <table>
+      <thead><tr><th>阶段</th><th>笔记数量</th><th>预估曝光</th><th>互动率目标</th></tr></thead>
+      <tbody>
+        <tr><td class="td-highlight">开业预热期</td><td>20-30 篇</td><td>50万+</td><td>≥ 5%</td></tr>
+        <tr><td class="td-highlight">开业爆发期</td><td>30-50 篇</td><td>100万+</td><td>≥ 6%</td></tr>
+        <tr><td class="td-highlight">日常运营期</td><td>10-15 篇/月</td><td>30万+/月</td><td>≥ 3%</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- ===== 三平台整合 ===== -->
+  <h3>四、三平台整合协同总览</h3>
+
+  <div class="card">
+    <div class="card-title"><span class="icon"></span>各平台角色定位</div>
+    <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr><th>平台</th><th>核心角色</th><th>目标人群</th><th>内容调性</th><th>转化路径</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="td-highlight">抖音</td>
+            <td><b>流量引擎</b></td>
+            <td>泛海鲜兴趣人群</td>
+            <td>短视频种草 + 直播冲动消费</td>
+            <td>刷到 → 买券 → 到店核销</td>
+          </tr>
+          <tr>
+            <td class="td-highlight">大众点评</td>
+            <td><b>信任基建</b></td>
+            <td>高意向决策人群</td>
+            <td>评价口碑 + 星级信用</td>
+            <td>搜索 → 看评价 → 团购下单</td>
+          </tr>
+          <tr>
+            <td class="td-highlight">小红书</td>
+            <td><b>品牌叙事</b></td>
+            <td>年轻女性时尚人群</td>
+            <td>氛围感图文 + 穿搭打卡</td>
+            <td>种草 → 收藏 → 到店打卡 → 自发传播</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <h4>三平台协同时间线</h4>
+  <div class="gantt">
+    <div class="gantt-header">
+      <div class="gantt-col-label">平台/动作</div>
+      <div class="gantt-col-months">
+        <span>开业前</span><span>第1月</span><span>第2月</span><span>第3月</span><span>第4月</span><span>第5月</span><span>第6月</span>
+      </div>
+    </div>
+    <div class="gantt-row">
+      <div class="gantt-row-label">抖音达人带货</div>
+      <div class="gantt-row-bar">
+        <div class="gantt-bar gold" style="left:0%;width:14%;">预热</div>
+        <div class="gantt-bar dark" style="left:14%;width:86%;">100面值持续投放</div>
+      </div>
+    </div>
+    <div class="gantt-row">
+      <div class="gantt-row-label">抖音达播+店播</div>
+      <div class="gantt-row-bar">
+        <div class="gantt-bar gold" style="left:14%;width:12%;">启动</div>
+        <div class="gantt-bar accent" style="left:26%;width:74%;">200+300面值矩阵</div>
+      </div>
+    </div>
+    <div class="gantt-row">
+      <div class="gantt-row-label">点评基础建设</div>
+      <div class="gantt-row-bar">
+        <div class="gantt-bar gold" style="left:0%;width:22%;">POI+团购+招牌菜</div>
+      </div>
+    </div>
+    <div class="gantt-row">
+      <div class="gantt-row-label">点评免费菜</div>
+      <div class="gantt-row-bar">
+        <div class="gantt-bar dark" style="left:14%;width:30%;">V1-V5饮品</div>
+        <div class="gantt-bar gold" style="left:44%;width:56%;">V6-V8果盘</div>
+      </div>
+    </div>
+    <div class="gantt-row">
+      <div class="gantt-row-label">点评推广通</div>
+      <div class="gantt-row-bar">
+        <div class="gantt-bar accent" style="left:40%;width:60%;">五盏绿灯后启动</div>
+      </div>
+    </div>
+    <div class="gantt-row">
+      <div class="gantt-row-label">小红书种草</div>
+      <div class="gantt-row-bar">
+        <div class="gantt-bar dark" style="left:10%;width:14%;">美食+穿搭</div>
+        <div class="gantt-bar accent" style="left:24%;width:76%;">持续 UGC + 话题运营</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="summary-box">
+    <h4>整合逻辑：三平台错位不重叠，协同不对冲</h4>
+    <p style="margin-bottom:8px;"><b>抖音负责"把人拉进来"</b>（流量引擎，货盘驱动），<b>大众点评负责"让人信你"</b>（信任基建，评价驱动），<b>小红书负责"让人记住你"</b>（品牌叙事，内容驱动）。</p>
+    <p style="margin-bottom:0;">时间线上：开业前以小红书种草 + 抖音预热打响第一枪 → 开业首月抖音 100 面值爆量拉新 → 点评基础评价同步积累，30-45天后星级达标启动推广通 → 第 3 月起抖音上线 300 面值大桌券拉升利润 → 小红书持续产出 UGC 维持品牌热度。</p>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- 七、合作服务包 -->
+<section class="section">
+  <div class="section-number">PART 07</div>
+  <h2 class="section-title">合作服务包与报价</h2>
+  <div class="section-subtitle">模块化设计，按需组合；甲方可自主决定深浅与边界</div>
+
+  <h3>服务模块一览</h3>
+  <div class="service-grid">
+    <div class="service-card">
+      <div class="sc-name">品牌定位包</div>
+      <div class="sc-meta">周期 30 天</div>
+      <div class="sc-desc">品牌命名最终确认、品牌故事撰写、定位白皮书输出、核心话术体系构建、投资人摘要文档（用于资方沟通与内部对齐）</div>
+      <div class="sc-price">¥80,000</div>
+    </div>
+    <div class="service-card">
+      <div class="sc-name">产品架构包</div>
+      <div class="sc-meta">周期 45 天</div>
+      <div class="sc-desc">14-16 SKU 矩阵设计、分层定价策略、代金券体系搭建、单品推荐话术、后厨培训大纲输出</div>
+      <div class="sc-price">¥60,000</div>
+    </div>
+    <div class="service-card">
+      <div class="sc-name">视觉协同包</div>
+      <div class="sc-meta">周期 45 天</div>
+      <div class="sc-desc">VI 方向设计（LOGO / 色系 / 字体 / 物料模板）、SI 空间方向指南（协同甲方设计团队）、菜单设计</div>
+      <div class="sc-price">¥100,000</div>
+    </div>
+    <div class="service-card">
+      <div class="sc-name">围挡营销包</div>
+      <div class="sc-meta">周期 60 天</div>
+      <div class="sc-desc">围挡创意方案输出、内容日历制定、达人矩阵搭建与管理、私域种子用户招募 SOP</div>
+      <div class="sc-price">¥120,000</div>
+    </div>
+    <div class="service-card">
+      <div class="sc-name">开业引爆包</div>
+      <div class="sc-meta">周期 45 天</div>
+      <div class="sc-desc">赶潮节全案策划与执行统筹、大众点评上线策略、首月数据监测与效果复盘</div>
+      <div class="sc-price">¥80,000</div>
+    </div>
+    <div class="service-card">
+      <div class="sc-name">跟踪顾问包</div>
+      <div class="sc-meta">周期 90 天</div>
+      <div class="sc-desc">开业后月度复盘会议 ×3（月度经营数据诊断 + 产品微调建议 + 私域运营迭代优化）</div>
+      <div class="sc-price">¥40,000</div>
+    </div>
+  </div>
+
+  <h3>套餐组合建议</h3>
+  <div class="plan-cards">
+    <div class="plan-card">
+      <div class="plan-name">轻量包</div>
+      <div class="plan-price">¥260,000</div>
+      <ul class="plan-features">
+        <li>品牌定位包</li>
+        <li>产品架构包</li>
+        <li>围挡营销包</li>
+      </ul>
+    </div>
+    <div class="plan-card recommended">
+      <div class="plan-name">基础包（推荐）</div>
+      <div class="plan-price">¥440,000</div>
+      <ul class="plan-features">
+        <li>品牌定位包</li>
+        <li>产品架构包</li>
+        <li>视觉协同包</li>
+        <li>围挡营销包</li>
+        <li>开业引爆包</li>
+        <li>投资人摘要文档</li>
+      </ul>
+    </div>
+    <div class="plan-card">
+      <div class="plan-name">全套包</div>
+      <div class="plan-price">¥480,000</div>
+      <ul class="plan-features">
+        <li>基础包全部内容</li>
+        <li>跟踪顾问包（3个月）</li>
+        <li>优先响应权益</li>
+      </ul>
+    </div>
+  </div>
+
+  <h3>付款节奏</h3>
+  <div class="payment-bar">
+    <div class="pb-seg pb-1">
+      <span class="pb-pct">30%</span>
+      签约支付
+    </div>
+    <div class="pb-seg pb-2">
+      <span class="pb-pct">30%</span>
+      品牌定位交付
+    </div>
+    <div class="pb-seg pb-3">
+      <span class="pb-pct">40%</span>
+      开业后30天
+    </div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- 八、项目甘特图 -->
+<section class="section">
+  <div class="section-number">PART 08</div>
+  <h2 class="section-title">项目甘特图</h2>
+  <div class="section-subtitle">关键工作流与时间节点全览</div>
+
+  <div class="gantt">
+    <div class="gantt-header">
+      <div class="gantt-col-label">工作模块</div>
+      <div class="gantt-col-months">
+        <span>第1月</span><span>第2月</span><span>第3月</span><span>第4月</span><span>第5月</span><span>第6月</span>
+      </div>
+    </div>
+    <div class="gantt-row">
+      <div class="gantt-row-label">品牌定位</div>
+      <div class="gantt-row-bar">
+        <div class="gantt-bar gold" style="left:0%;width:27%;">品牌定位</div>
+      </div>
+    </div>
+    <div class="gantt-row">
+      <div class="gantt-row-label">产品架构</div>
+      <div class="gantt-row-bar">
+        <div class="gantt-bar dark" style="left:13%;width:37%;">产品架构</div>
+      </div>
+    </div>
+    <div class="gantt-row">
+      <div class="gantt-row-label">VI / SI 设计</div>
+      <div class="gantt-row-bar">
+        <div class="gantt-bar accent" style="left:13%;width:37%;">VI/SI 设计</div>
+      </div>
+    </div>
+    <div class="gantt-row">
+      <div class="gantt-row-label">选址确认</div>
+      <div class="gantt-row-bar">
+        <div class="gantt-bar gold" style="left:7%;width:10%;">选址</div>
+      </div>
+    </div>
+    <div class="gantt-row">
+      <div class="gantt-row-label">围挡施工</div>
+      <div class="gantt-row-bar">
+        <div class="gantt-bar dark" style="left:17%;width:50%;">围挡施工期</div>
+      </div>
+    </div>
+    <div class="gantt-row">
+      <div class="gantt-row-label">线上预热</div>
+      <div class="gantt-row-bar">
+        <div class="gantt-bar accent" style="left:17%;width:60%;">线上内容预热</div>
+      </div>
+    </div>
+    <div class="gantt-row">
+      <div class="gantt-row-label">围挡装置上线</div>
+      <div class="gantt-row-bar">
+        <div class="gantt-bar gold" style="left:27%;width:40%;">潮汐日历装置</div>
+      </div>
+    </div>
+    <div class="gantt-row">
+      <div class="gantt-row-label">开业引爆</div>
+      <div class="gantt-row-bar">
+        <div class="gantt-bar dark" style="left:60%;width:20%;">赶潮节</div>
+      </div>
+    </div>
+    <div class="gantt-row">
+      <div class="gantt-row-label">跟踪顾问</div>
+      <div class="gantt-row-bar">
+        <div class="gantt-bar accent" style="left:73%;width:27%;">跟踪顾问 ×3月</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- 九、风险提示 -->
+<section class="section">
+  <div class="section-number">PART 09</div>
+  <h2 class="section-title">风险提示与缓解措施</h2>
+  <div class="section-subtitle">坦诚面对每一个潜在风险，是信任的基础</div>
+
+  <div class="table-wrapper">
+    <table class="risk-table">
+      <thead>
+        <tr><th>风险项</th><th>严重性</th><th>缓解措施</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="td-highlight">海鲜供应链不稳定导致出品波动</td>
+          <td><span class="badge badge-red">高</span></td>
+          <td>前期锁定 3-4 款标准化海鲜品类（虾、蛏子、花甲、生蚝），规避季节性波动大的东海特产；与成都白家、青石桥等批发市场建立直供关系</td>
+        </tr>
+        <tr>
+          <td class="td-highlight">代金券策略侵蚀综合利润</td>
+          <td><span class="badge badge-red">高</span></td>
+          <td>采用面值分层策略：100券拉新不伤客单，200/300券通过高面值锁定聚餐场景与利润结构；首月不推任何代金券，先建立品牌认知和产品口碑</td>
+        </tr>
+        <tr>
+          <td class="td-highlight">甲方多方比价导致落单</td>
+          <td><span class="badge-blue">中</span></td>
+          <td>模块化报价降低决策门槛；提供投资人摘要文档辅助内部对齐，在比价中建立不可替代性</td>
+        </tr>
+        <tr>
+          <td class="td-highlight">金牛凯德铺位被竞品抢占</td>
+          <td><span class="badge-blue">中</span></td>
+          <td>备选方案龙湖系已就位，不锁定单一选址，灵活切换</td>
+        </tr>
+        <tr>
+          <td class="td-highlight">围挡期内容产出节奏中断</td>
+          <td><span class="badge-green">低</span></td>
+          <td>签约后立即启动"潮信"短视频素材的提前储备（至少 10 期），不依赖即兴创作</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+</main>
+
+<!-- ==================== 尾页 ==================== -->
+<footer class="end-page">
+  <h2>赶<span>潮</span>水</h2>
+  <div class="end-divider"></div>
+  <p>市井高级海鲜馆 · 从成都出发</p>
+  <p style="margin-top:12px; font-size:13px;">四川丰火传媒 · 2026年6月</p>
+  <p style="margin-top:24px; font-size:12px; color:rgba(255,255,255,0.25);">机密文件 · 仅限内部传阅</p>
+</footer>
+
+</div>
+
+</body>
+</html>
