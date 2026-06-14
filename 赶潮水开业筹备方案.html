@@ -158,7 +158,10 @@
   }
   table tbody td {
     padding: 12px 14px; border-bottom: 1px solid var(--border);
-    vertical-align: top; word-break: keep-all; overflow-wrap: break-word;
+    vertical-align: top; white-space: nowrap;
+  }
+  table tbody td.td-wrap {
+    white-space: normal; word-break: normal; overflow-wrap: break-word;
   }
   table tbody tr:nth-child(even) { background: var(--highlight); }
   .td-highlight { font-weight: 600; color: var(--dark); }
@@ -285,8 +288,27 @@
     max-width: 200px;
     border-radius: 8px;
     border: 1px solid var(--border);
+    margin: 12px auto;
+    display: block;
+    text-align: center;
+  }
+  .img-qr-wrap {
+    text-align: center;
+  }
+  .img-natural {
+    max-width: 100%;
+    border-radius: 8px;
+    border: 1px solid var(--border);
     margin: 12px 0;
     display: block;
+  }
+  .td-red {
+    color: var(--danger);
+    font-weight: 700;
+  }
+  .td-bold {
+    color: var(--dark);
+    font-weight: 700;
   }
   .img-caption {
     font-size: 12px;
@@ -372,8 +394,10 @@
         </tr>
       </tbody>
     </table>
-    <img src="点评收藏打卡二维码.png" alt="赶潮水点评自动收藏打卡二维码" class="img-qr">
-    <p class="img-caption">▲ 已生成大众点评自动收藏打卡二维码，围挡期间即可启用</p>
+    <div class="img-qr-wrap">
+      <img src="点评收藏打卡二维码.png" alt="赶潮水点评自动收藏打卡二维码" class="img-qr">
+      <p class="img-caption">▲ 已生成大众点评自动收藏打卡二维码，围挡期间即可启用</p>
+    </div>
   </div>
 
   <h3>门店状态管理</h3>
@@ -426,7 +450,7 @@
         <tr>
           <td class="td-highlight">主营产品</td>
           <td>1 款招牌便携海鲜</td>
-          <td>生腌罗氏虾（唯一餐车爆品，可在其他门店提前备料+统一打包，出品标准化）</td>
+          <td>生腌罗氏虾（<span class="td-bold">唯一餐车爆品</span>，可在其他门店提前备料+统一打包，出品标准化）</td>
         </tr>
         <tr>
           <td class="td-highlight">打包耗材</td>
@@ -684,7 +708,7 @@
   <h4>④ 大众点评「点星笔记」品牌话题</h4>
   <div class="card">
     <div class="card-title"><span class="icon"></span>开业同步上线 · ¥15,000 档位 · 30条官方笔记</div>
-    <p>开业当天同步投放大众点评「点星笔记」活动，建造专属品牌话题，30 条高质量官方笔记统一展示在门店 POI 页面下方，形成品牌内容护城河。</p>
+    <p>试营业期间提前筹备并投放大众点评「点星笔记」活动，建造专属品牌话题，30 条高质量官方笔记统一展示在门店 POI 页面下方，确保正式开业前品牌内容矩阵完整在线，形成品牌内容护城河。</p>
     <div class="table-wrapper">
       <table>
         <thead><tr><th>项目</th><th>详情</th></tr></thead>
@@ -692,13 +716,13 @@
           <tr><td class="td-highlight">档位选择</td><td>¥15,000 档位（30 条官方笔记）</td></tr>
           <tr><td class="td-highlight">展示位置</td><td>门店 POI 页面下方「品牌笔记」专区</td></tr>
           <tr><td class="td-highlight">内容方向</td><td>招牌菜品实拍、空间氛围、围挡潮汐日历揭秘、开业花絮、食材溯源</td></tr>
-          <tr><td class="td-highlight">投放时机</td><td>开业当天同步上线，配合赶潮节爆发</td></tr>
+          <tr><td class="td-highlight">投放时机</td><td>试营业期间投放，正式开业前完成上线</td></tr>
           <tr><td class="td-highlight">战略价值</td><td>30 条笔记形成品牌内容矩阵，新客进入门店页即可看到完整品牌叙事，降低决策成本、提升进店转化率</td></tr>
         </tbody>
       </table>
     </div>
-    <img src="点星笔记活动.jpg" alt="大众点评点星笔记活动" class="img-full">
-    <p class="img-caption">▲ 大众点评「点星笔记」品牌话题活动展示效果</p>
+    <img src="点星笔记活动.jpg" alt="大众点评点星笔记活动" class="img-natural">
+    <p class="img-caption">▲ 大众点评「点星笔记」品牌话题活动展示效果（试营业期间投放）</p>
   </div>
 
   <h3>5.3 点评核心目标</h3>
@@ -835,9 +859,10 @@
       </div>
     </div>
     <div class="gantt-row">
-      <div class="gantt-row-label">点星笔记上线</div>
+      <div class="gantt-row-label">点星笔记投放</div>
       <div class="gantt-row-bar">
-        <div class="gantt-bar gold" style="left:53%;width:47%;">开业同步 · 30条品牌笔记持续展示</div>
+        <div class="gantt-bar gold" style="left:27%;width:13%;">筹备</div>
+        <div class="gantt-bar dark" style="left:40%;width:60%;">试营业投放 · 30条品牌笔记持续展示</div>
       </div>
     </div>
   </div>
